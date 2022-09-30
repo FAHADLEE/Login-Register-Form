@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aliceblue;
+}
+.register{
+    background-color: white;
+    left: 10%;
+    position: absolute;
+    transform: translatex(50%);
+    border: solid silver 1px ;
+    width: 40%;
+    height: 100%;
+}
+h1{
+    text-align: center;
+    margin: 40px 0px;
+}
+.logo{
+    padding: 20px 0px;
+    height: 50px;
+    background-color: aliceblue;
+}
+.logo img{
+    margin-left:30px ;
+    display: table-row;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 40px;
+    padding: 0px 20px;
+}
+form{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    
+}
+.input{
+    width: 200px;
+    margin-top: 20px;
+    margin-right: 100px;
+}
+input{
+    margin-top: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    border: none;
+    border-bottom: silver solid 1px;
+}
+button{
+    margin-top: 10px;
+    text-align: center;
+    background-color: cornflowerblue;
+}

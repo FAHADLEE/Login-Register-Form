@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    /* position: fixed; */
+    background-color:#ccc;
+    text-align: end;
+    padding:20px 20px ;
+    width: auto;
+}
+.nav span a{
+    color: #000;
+    text-decoration: none;
+}
+.nav span a{
+    padding: 5px 8px;
+    margin-right: 60px;
+    cursor: pointer;
+    
+}
+.nav span a:hover{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    
+}
+.travel img{
+    /* margin-top: 50px; */
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.travel-warrep{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+.travel-img{
+    width: 30%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 20px;
+    cursor: pointer;
+}
+.travel-img img{
+    object-fit: cover;
+    width: 100%;
+    height: 300px;
+}
+.title{
+    text-align: center;
+    padding: 20px;
+}
+.blog h1{
+    text-align: center;
+}
+.blog pre{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100px;
+    font-size:1.4em;
+    text-align: center;
+}
+
+.About pre{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100px;
+    font-size:1.4em;
+    text-align: center;
+    margin: 0px auto;
+}
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login h2{
+    margin-bottom: 3px;
+    text-align: center;
+}
+.login form{
+    background-color: aliceblue;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 50px;
+    font-size: 20px;
+    border: 1px solid #ccc;
+    padding: 50px;
+}
+.login div{
+    color: rgb(51, 47, 47);
+    padding-top: 20px;
+}
+.login input{
+    background: transparent;
+    width: 300px;
+    border: none;
+    border-bottom: solid 1px #c0c0cc;
+}
+.login button{
+    background-color: #c0c0cc; 
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+.login button:hover{
+    background-color: #ccc;
+}
+footer{
+
+}

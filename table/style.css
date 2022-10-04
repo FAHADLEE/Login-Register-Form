@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+table{
+    width: 60%;
+}
+table ,th,td{
+    border: solid 1px #000;
+    border-collapse: collapse;
+    padding: 16px  16px 16px 3px;
+}
+table th{
+    background-color: lightblue;
+}
